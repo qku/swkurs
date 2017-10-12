@@ -6,8 +6,8 @@ data = pd.read_csv('D1s.csv')
 data["Diff"] = abs(data.HTore - data.ATore)
 data["Tore"] = data.HTore + data.ATore
 
-print("Meiste Heimtore:")
-print(data[data.HTore == data.HTore.max()])
+print("Meiste Auswärtstore:")
+print(data[data.ATore == data.ATore.max()])
 print
 
 print("Größte Tordifferenz:")
