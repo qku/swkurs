@@ -1,0 +1,14 @@
+*.pyc
+*.dat
+*.csv
+*.xml
+*.gpx
+*.json
+*.tex
+*.pdf
+*.pickle
+*.sqlite
+*.png
+*.txt
+*.aux
+*.log
